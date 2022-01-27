@@ -2,7 +2,7 @@
   "name": "tut-01",
   "version": "0.1.0",
   "homepage": "https://subratsir.github.io/Groceries-List-Using-React",
-  "private": true,
+  "private": false,
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
