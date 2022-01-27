@@ -11,10 +11,12 @@
 
 ## Learning Objectives
 
-- React State.
-- Use of Props in React.
-- Use of Local Storage.
-- Publish to GitHub Pages
+- React Functional Components.
+- Click Events
+- useState Hook
+- Lists & Keys
+- Props & Prop Drilling
+- Controlled Component Inputs
 
 ## How to host to GitHub pages
 - Add these two lines to scripts in package.json
