@@ -16,6 +16,34 @@
 - Use of Local Storage.
 - Publish to GitHub Pages
 
+## How to host to GitHub pages
+- Add these two lines to scripts in package.json
+
+`
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+   }
+`   
+
+- install gh-pages
+
+`
+npm install gh-pages --save-dev
+`
+
+- add homepage to package.json
+
+`
+"homepage": "https://subratsir.github.io/Groceries-List-Using-React",
+`
+
+(Note: change the information with yours.)
+
+
+`npm run deploy`
+
+
 ## Author
 
 👤 **Subrat Dash**
@@ -23,7 +51,6 @@
 - GitHub: [@subratsir](https://github.com/subratsir)
 - Twitter: [@SubratSirIndia](https://twitter.com/SubratSirIndia)
 - LinkedIn: [subrata-ku-das](https://www.linkedin.com/in/subrata-ku-das/)
-
 
 ## 🤝 Contributing
 
